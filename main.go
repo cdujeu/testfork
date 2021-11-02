@@ -26,6 +26,9 @@ import (
 	"github.com/cdujeu/testfork/subpackage"
 )
 
+var MainVar = "Main TestFork"
+
 func main() {
 	fmt.Println(subpackage.PrintMe)
+	fmt.Println(MainVar)
 }
